@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.game-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 550px;
+    height: 550px;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+}
+
+.light {
+    background-color: #888ff4;
+}
+
+.dark {
+    background-color: #5232e8;
+}
+
+.piece {
+    width: 50%;
+    height: auto;
+    max-width: 50px;
+    transition: transform 0.3s ease;
+}
+
+.cell:hover {
+    border: 4px dashed #000;
+}
+
+.cell:hover .piece {
+    scale: 1.2;
+}
+
+.selected {
+    border: 2px solid red;
+}
+
+.cell.highlight {
+    background-color: rgba(0, 255, 0, 0.5);
+    position: relative;
+}
+
+.cell.highlight::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start-button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}

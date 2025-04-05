@@ -1,0 +1,661 @@
+{
+    "sportscarousel": [
+        {
+            "id": "C1",
+            "image": "images/1.jpg"
+        },
+        {
+            "id": "C2",
+            "image": "images/2.jpg"
+        },
+        {
+            "id": "C3",
+            "image": "images/3.jpg"
+        },
+        {
+            "id": "C4",
+            "image": "images/4.jpg"
+        },
+        {
+            "id": "C5",
+            "image": "images/6.jpg"
+        },
+        {
+            "id": "C6",
+            "image": "images/7.jpg"
+        }
+    ],
+    "moviescarousel": [
+        {
+            "id": "M1",
+            "image": "images/m1.jpeg"
+        },
+        {
+            "id": "M2",
+            "image": "images/m2.jpeg"
+        },
+        {
+            "id": "M3",
+            "image": "images/m3.jpeg"
+        },
+        {
+            "id": "M4",
+            "image": "images/m4.jpeg"
+        },
+        {
+            "id": "M5",
+            "image": "images/m5.jpeg"
+        },
+        {
+            "id": "M6",
+            "image": "images/m6.jpeg"
+        }
+    ],
+    "gamescarousel": [
+        {
+            "id": "G1",
+            "image": "images/g1.jpeg"
+        },
+        {
+            "id": "G2",
+            "image": "images/g2.jpeg"
+        },
+        {
+            "id": "G3",
+            "image": "images/g3.jpeg"
+        },
+        {
+            "id": "G4",
+            "image": "images/g4.jpeg"
+        },
+        {
+            "id": "G5",
+            "image": "images/g5.jpeg"
+        },
+        {
+            "id": "G6",
+            "image": "images/g6.jpeg"
+        }
+    ],
+    "sports": [
+        {
+            "id": "F1",
+            "name": "El Clásico",
+            "description": "The most exciting clash in football history! Are you ready for the thrill?",
+            "src": "images/Football/f1.png",
+            "Genre": "football",
+            "url": "https://www.laliga.com/partidazos/el-clasico"
+        },
+        {
+            "id": "F2",
+            "name": "Premier Showdown!",
+            "description": "The battle for three points continues, who will come out victorious tonight?",
+            "src": "images/Football/f2.png",
+            "Genre": "football",
+            "url": "https://liquipedia.net/counterstrike/BLAST/Premier/2024/Spring/Showdown"
+        },
+        {
+            "id": "F3",
+            "name": "Matchday!",
+            "description": "The Old Lady is looking for a win, will they manage to grab all three points?",
+            "src": "images/Football/f3.png",
+            "Genre": "football",
+            "url": "https://matchday.com/"
+        },
+        {
+            "id": "F4",
+            "name": "Champions on the Field!",
+            "description": "Milan is back with strength, could today be their day?",
+            "src": "images/Football/f4.png",
+            "Genre": "football",
+            "url": "https://wtop.com/sports/2025/01/the-new-champions-league-format-appears-to-be-leveling-the-playing-field-just-ask-man-city/"
+        },
+        {
+            "id": "F5",
+            "name": "Global Football",
+            "description": "Enjoy watching the best matches from around the world.",
+            "src": "images/Football/f5.png",
+            "Genre": "football",
+            "url": "https://www.globalfootball.com/"
+        },
+        {
+            "id": "F6",
+            "name": "Championships",
+            "description": "Witness the strongest competitions in the UEFA Champions League.",
+            "src": "images/Football/f6.png",
+            "Genre": "football",
+            "url": "https://dictionary.cambridge.org/dictionary/english/championship"
+        },
+        {
+            "id": "F7",
+            "name": "Local Competitions",
+            "description": "Watch your favorite teams challenge their rivals.",
+            "src": "images/Football/f7.png",
+            "Genre": "football",
+            "url": "https://www.seedstarsworld.com/local-competitions/"
+        },
+        {
+            "id": "F8",
+            "name": "Major Sporting Events",
+            "description": "Get ready for the biggest sporting events in the world.",
+            "src": "images/Football/f8.png",
+            "Genre": "football",
+            "url": "https://www.roadtrips.com/calendar-of-events/"
+        },
+        {
+            "id": "T1",
+            "name": "Grand Slam Showdown",
+            "description": "Witness the greatest matches in tennis history.",
+            "src": "images/Tennis/t1.jpg",
+            "Genre": "tennis",
+            "url": "https://liquipedia.net/pubg/Global_Loot_League/Grand_Slam/Showdown"
+        },
+        {
+            "id": "T2",
+            "name": "Champions' Arena",
+            "description": "Experience the thrill of every championship game.",
+            "src": "images/Tennis/t2.jpg",
+            "Genre": "tennis",
+            "url": "https://www.independent.co.uk/sport/tennis/jannik-sinner-alexander-zverev-rod-laver-arena-italian-beijing-b2686522.html"
+        },
+        {
+            "id": "T3",
+            "name": "Elite Tennis Tour",
+            "description": "Follow the journey of the world's best players.",
+            "src": "images/Tennis/t3.jpg",
+            "Genre": "tennis",
+            "url": "https://elitetennistravel.com/"
+        },
+        {
+            "id": "T4",
+            "name": "Masters Series",
+            "description": "Get exclusive access to all Masters tournaments.",
+            "src": "images/Tennis/t4.jpg",
+            "Genre": "tennis",
+            "url": "https://www.masterseries.com/"
+        },
+        {
+            "id": "T5",
+            "name": "Ultimate Tennis Battle",
+            "description": "Join the excitement of top-tier tennis clashes.",
+            "src": "images/Tennis/t5.jpg",
+            "Genre": "tennis",
+            "url": "https://www.uts.live/"
+        },
+        {
+            "id": "T6",
+            "name": "Legends of the Court",
+            "description": "Relive the iconic moments of tennis legends.",
+            "src": "images/Tennis/t6.jpg",
+            "Genre": "tennis",
+            "url": "https://southblock.co.uk/legends-of-the-tennis-court/"
+        },
+        {
+            "id": "T7",
+            "name": "Pro Tennis Circuit",
+            "description": "Stay updated with every match in the pro circuit.",
+            "src": "images/Tennis/t7.jpg",
+            "Genre": "tennis",
+            "url": "https://www.usta.com/en/home/pro/pro-tennis-events/pro-circuit.html"
+        },
+        {
+            "id": "T8",
+            "name": "Tennis Titans",
+            "description": "Enjoy unparalleled access to the titans of tennis.",
+            "src": "images/Tennis/t9.jpg",
+            "Genre": "tennis",
+            "url": "https://www.tennistitans.com.au/"
+        },
+        {
+            "id": "B1",
+            "name": "Hoops Heaven",
+            "description": "Dive into every exhilarating moment of the game.",
+            "src": "images/basket/1.jpg",
+            "Genre": "basket",
+            "url": "https://hoopheaven.com/news/"
+        },
+        {
+            "id": "B2",
+            "name": "Slam Dunk Central",
+            "description": "Catch the most electrifying dunks and moves.",
+            "src": "images/basket/b2.jpg",
+            "Genre": "basket",
+            "url": "https://thedunkcentral.com/page/5/"
+        },
+        {
+            "id": "B3",
+            "name": "Court Kings",
+            "description": "Follow the rise of the basketball royalty.",
+            "src": "images/basket/b3.jpg",
+            "Genre": "basket",
+            "url": "https://www.sportscollectorsdaily.com/2024-25-court-kings-basketball-returns-with-artistic-flair/"
+        },
+        {
+            "id": "B4",
+            "name": "Net Masters",
+            "description": "Exclusive access to top-tier basketball action.",
+            "src": "images/basket/b4.jpg",
+            "Genre": "basket",
+            "url": "https://www.cbssports.com/college-basketball/rankings/net/"
+        },
+        {
+            "id": "B5",
+            "name": "Basketball Bonanza",
+            "description": "Get your front-row seat to all the thrills.",
+            "src": "images/basket/b6.jpg",
+            "Genre": "basket",
+            "url": "https://ultimatecampresource.com/camp-games/sports-oriented-games/basketball-bonanza/"
+        },
+        {
+            "id": "B6",
+            "name": "Game On!",
+            "description": "Unmatched excitement from every corner of the court.",
+            "src": "images/basket/b5.jpg",
+            "Genre": "basket",
+            "url": "https://www.nba.com/news"
+        },
+        {
+            "id": "B7",
+            "name": "Ultimate Baller",
+            "description": "Experience the prowess of the greatest players.",
+            "src": "images/basket/b7.jpg",
+            "Genre": "basket",
+            "url": "https://ultimateballer.co.uk/"
+        },
+        {
+            "id": "B8",
+            "name": "Clash of Titans",
+            "description": "Where champions face off in epic battles.",
+            "src": "images/basket/b8.jpg",
+            "Genre": "basket",
+            "url": "https://www.emirhankabakci.com/news/clash-of-titans-an-insight-into-the-pacers-vs-spurs-showdown/"
+        }
+    ],
+    "movies": [
+        {
+            "id": 1,
+            "name": "Dune: Part Two",
+            "description": "Paul Atreides continues his journey with Chani and the Fremen to seek revenge against the conspirators who destroyed his family, facing a choice between love and the universe's fate.",
+            "src": "images/dune-movie-poster-2021-1020781005.jpg",
+            "Genre": "Action",
+            "url": "https://egydeadw.sbs/%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9-%D9%81%D9%8A%D9%84%D9%85-dune-part-2-2024-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-gh-%D8%A7%D9%88%D9%86/"
+        },
+        {
+            "id": 2,
+            "name": "The Fall Guy",
+            "description": "A stuntman gets entangled in a mission to find the missing star of his ex-girlfriend’s movie, rekindling old feelings while navigating a dangerous adventure.",
+            "src": "images/R.jpg",
+            "Genre": "Action",
+            "url": "https://web2.topcinema.cam/actor/adam-dunn/"
+        },
+        {
+            "id": 3,
+            "name": "Furiosa: A Mad Max Saga",
+            "description": "Furiosa is kidnapped and ends up in the hands of a biker gang, battling to return to her homeland amidst chaos.",
+            "src": "images/R (1).jpg",
+            "Genre": "Action",
+            "url": "https://shahid4u.day/film/%D9%81%D9%8A%D9%84%D9%85-furiosa-a-mad-max-saga-2024-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86"
+        },
+        {
+            "id": 4,
+            "name": "Deadpool & Wolverine",
+            "description": "Deadpool teams up with Wolverine to fight a common threat, facing personal and emotional challenges along the way.",
+            "src": "images/OIP.jpg",
+            "Genre": "Action",
+            "url": "https://shahid4u.day/film/deadpool--wolverine-2024-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86"
+        },
+        {
+            "id": 5,
+            "name": "Rebel Ridge",
+            "description": "A gripping thriller about Jack, who escapes a dark past and embarks on a quest for vengeance, facing internal and external struggles.",
+            "src": "images/sF3ycofO06op9l9rQU61PJJZlih.jpg",
+            "Genre": "Action",
+            "url": "https://shahid4u.day/film/%D9%81%D9%8A%D9%84%D9%85-rebel-ridge-2024-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86"
+        },
+        {
+            "id": 6,
+            "name": "Twilight of the Warriors: Walled In",
+            "description": "A group of warriors trapped within the walls of an ancient city must confront internal and external threats to survive.",
+            "src": "images/zQy5s2CVtRK3B3ppiGf0DObo2A1.jpg",
+            "Genre": "Action",
+            "url": "https://shahid4u.day/film/%D9%81%D9%8A%D9%84%D9%85-twilight-of-the-warriors:-walled-in-2024-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86"
+        },
+        {
+            "id": 7,
+            "name": "Alinoid: The Return to the Future",
+            "description": "A tech-savvy young man discovers a time machine, traveling across eras to fix past mistakes, with repercussions for the present and future.",
+            "src": "images/OIP (1).jpg",
+            "Genre": "Action",
+            "url": "https://web2.topcinema.cam/%D9%81%D9%8A%D9%84%D9%85-alienoid-return-to-the-future-2024-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86/"
+        },
+        {
+            "id": 8,
+            "name": "The Beekeeper",
+            "description": "A former operative seeks revenge after betrayal, uncovering a global conspiracy.",
+            "src": "images/The-Beekeeper.png",
+            "Genre": "Action",
+            "url": "https://shahid4u.day/film/%D9%81%D9%8A%D9%84%D9%85-the-beekeeper-2024-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86"
+        },
+        {
+            "id": 9,
+            "name": "Argylle",
+            "description": "A spy suffering from amnesia discovers his past as a writer of espionage novels, leading him into a real-life adventure.",
+            "src": "images/68958.jpg",
+            "Genre": "Action",
+            "url": "https://w35.my-cima.net/watch.php?vid=b914ea8b6"
+        },
+        {
+            "id": 10,
+            "name": "Monkey Man",
+            "description": "A man emerges from prison to confront corruption and crime in society, taking justice into his own hands.",
+            "src": "images/devpateldoes_4223203.jpg",
+            "Genre": "Action",
+            "url": "https://web184.faselhd.cafe/movies/%D9%81%D9%8A%D9%84%D9%85-monkey-man-2024-%D9%85%D8%AA%D8%B1%D8%AC%D9%85"
+        },
+        {
+            "id": 11,
+            "name": "Oppenheimer",
+            "description": "A biographical drama about J. Robert Oppenheimer, the physicist behind the atomic bomb, exploring his moral dilemmas and the impact of his work.",
+            "src": "images/C_391_.jpg",
+            "Genre": "Drama",
+            "url": "https://web2.topcinema.cam/%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9-%D9%81%D9%8A%D9%84%D9%85-oppenheimer-2023-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86-2/"
+        },
+        {
+            "id": 12,
+            "name": "The Holdovers",
+            "description": "A cantankerous teacher at a boarding school forms an unexpected bond with a troubled student left behind during the holidays.",
+            "src": "images/OIP (2).jpg",
+            "Genre": "Drama",
+            "url": "https://web2.topcinema.cam/%D9%81%D9%8A%D9%84%D9%85-the-holdovers-2023-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86/"
+        },
+        {
+            "id": 13,
+            "name": "Killers of the Flower Moon",
+            "description": "Based on true events, this drama explores a series of murders of wealthy Osage Nation members in the 1920s and the birth of the FBI.",
+            "src": "images/jjK7ebFWn1Xp1MJPlXogZjtJOax.jpg",
+            "Genre": "Drama",
+            "url": "https://egybest.cimawbas.tv/watch.php?vid=e3a2f2c08"
+        },
+        {
+            "id": 14,
+            "name": "Napoleon",
+            "description": "A historical drama that delves into the rise and fall of Napoleon Bonaparte, focusing on his personal relationships and military conquests.",
+            "src": "images/OIP (3).jpg",
+            "Genre": "Drama",
+            "url": "https://w35.my-cima.net/watch.php?vid=c438d0400"
+        },
+        {
+            "id": 15,
+            "name": "The Whale",
+            "description": "A reclusive English teacher living with severe obesity attempts to reconnect with his estranged teenage daughter.",
+            "src": "images/R (2).jpg",
+            "Genre": "Drama",
+            "url": "https://web184.faselhd.cafe/movies/%D9%81%D9%8A%D9%84%D9%85-whale-2022-%D9%85%D8%AA%D8%B1%D8%AC%D9%85"
+        },
+        {
+            "id": 16,
+            "name": "Past Lives",
+            "description": "A tender exploration of love and destiny as childhood friends reunite after decades apart, questioning the paths not taken.",
+            "src": "images/onesheet.jpg",
+            "Genre": "Drama",
+            "url": "https://macima.ahwaktv.net/watch.php?vid=B60925a20"
+        },
+        {
+            "id": 17,
+            "name": "Maestro",
+            "description": "A biographical drama about Leonard Bernstein, focusing on his career as a composer and conductor and his complex personal life.",
+            "src": "images/R (3).jpg",
+            "Genre": "Drama",
+            "url": "https://web2.topcinema.cam/series/%D9%85%D8%B3%D9%84%D8%B3%D9%84-maestro-%D9%85%D8%AA%D8%B1%D8%AC%D9%85/"
+        },
+        {
+            "id": 18,
+            "name": "The Son",
+            "description": "A family drama exploring the challenges of parenting a troubled teenage boy while navigating personal struggles.",
+            "src": "images/the-son-2022-movie-poster-346x520.jpg",
+            "Genre": "Drama",
+            "url": "https://web2.topcinema.cam/%D9%81%D9%8A%D9%84%D9%85-the-son-2022-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86/"
+        },
+        {
+            "id": 19,
+            "name": "Women Talking",
+            "description": "A group of women in a religious colony come together to discuss their future after a series of traumatic events.",
+            "src": "images/hnGdj1ZHfaUgoBmz1JttzRMC9hn.jpg",
+            "Genre": "Drama",
+            "url": "https://web2.topcinema.cam/%D9%81%D9%8A%D9%84%D9%85-women-talking-2022-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86/"
+        },
+        {
+            "id": 20,
+            "name": "A Good Person",
+            "description": "A young woman navigates grief and guilt after a tragic accident, finding solace in an unexpected friendship with her ex-fiancé’s father.",
+            "src": "images/OIP (4).jpg",
+            "Genre": "Drama",
+            "url": "https://web2.topcinema.cam/%D9%81%D9%8A%D9%84%D9%85-a-good-person-2023-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86/"
+        },
+        {
+            "id": 21,
+            "name": "Paddington 2",
+            "description": "The beloved bear Paddington tries to buy a rare book as a gift but gets falsely accused of a crime.",
+            "src": "images/OIP (5).jpg",
+            "Genre": "Comedy",
+            "url": "https://web184.faselhd.cafe/movies/1-%D9%81%D9%8A%D9%84%D9%85-paddington-2-2017-%D9%85%D8%AA%D8%B1%D8%AC%D9%85"
+        },
+        {
+            "id": 22,
+            "name": "The Intern",
+            "description": "A heartwarming and funny story about a senior citizen who becomes an intern at a startup run by a young entrepreneur.",
+            "src": "images/OIP (6).jpg",
+            "Genre": "Comedy",
+            "url": "https://arabseed.show/%D9%81%D9%8A%D9%84%D9%85-the-intern-2015-%D9%85%D8%AA%D8%B1%D8%AC%D9%85/"
+        },
+        {
+            "id": 23,
+            "name": "Mrs. Doubtfire",
+            "description": "A father disguises himself as a nanny to spend more time with his kids after a divorce.",
+            "src": "images/mrs-doubtfire-poster-love-jessica-muhammad.jpg",
+            "Genre": "Comedy",
+            "url": "https://shahid4u.day/film/%D9%81%D9%8A%D9%84%D9%85-mrs.-doubtfire-1993-%D9%85%D8%AA%D8%B1%D8%AC%D9%85"
+        },
+        {
+            "id": 24,
+            "name": "Enchanted",
+            "description": "A fairytale princess is transported to modern-day New York City, leading to hilarious and charming moments.",
+            "src": "images/d69ea427a6f5064efc23e92b56f7326a--enchanted-movie-disney-enchanted.jpg",
+            "Genre": "Comedy",
+            "url": "https://web184.faselhd.cafe/movies/1%D9%81%D9%8A%D9%84%D9%85-enchanted-2007-%D9%85%D8%AA%D8%B1%D8%AC%D9%85"
+        },
+        {
+            "id": 25,
+            "name": "Night at the Museum",
+            "description": "A museum guard discovers that the exhibits come to life at night, causing chaos and fun.",
+            "src": "images/secret-of-the-tomb-pstr03.jpg",
+            "Genre": "Comedy",
+            "url": "https://web184.faselhd.cafe/movies/1-%D9%81%D9%8A%D9%84%D9%85-night-museum-2006-%D9%85%D8%AA%D8%B1%D8%AC%D9%85"
+        },
+        {
+            "id": 26,
+            "name": "The Secret Life of Walter Mitty",
+            "description": "A timid man embarks on unexpected adventures as he seeks courage and purpose in his life.",
+            "src": "images/R (4).jpg",
+            "Genre": "Comedy",
+            "url": "https://web184.faselhd.cafe/movies/%D9%81%D9%8A%D9%84%D9%85-secret-life-walter-mitty-2013-%D9%85%D8%AA%D8%B1%D8%AC%D9%85"
+        },
+        {
+            "id": 27,
+            "name": "Father of the Bride",
+            "description": "A father hilariously struggles with planning his daughter’s wedding while coming to terms with her growing up.",
+            "src": "images/MV5BOGQwMjA2NzItNmJjYS00MDQ4LWJiZmYtNjgyZjFlNTY0MjQ0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+            "Genre": "Comedy",
+            "url": "https://web184.faselhd.cafe/movies/1%D9%81%D9%8A%D9%84%D9%85-father-bride-1991-%D9%85%D8%AA%D8%B1%D8%AC%D9%85"
+        },
+        {
+            "id": 28,
+            "name": "The Hundred-Foot Journey",
+            "description": "A heartwarming and humorous story about an Indian family opening a restaurant across from a fancy French eatery, leading to funny cultural clashes.",
+            "src": "images/R (5).jpg",
+            "Genre": "Comedy",
+            "url": "https://web184.faselhd.cafe/movies/1-%D9%81%D9%8A%D9%84%D9%85-hundred-foot-journey-2014-%D9%85%D8%AA%D8%B1%D8%AC%D9%85"
+        },
+        {
+            "id": 29,
+            "name": "Free Guy",
+            "description": "A bank teller discovers he’s a background character in a video game and decides to rewrite his story with humor and charm.",
+            "src": "images/R (6).jpg",
+            "Genre": "Comedy",
+            "url": "https://r48.cimalek.buzz/movies/free-guy-737654/"
+        },
+        {
+            "id": 30,
+            "name": "The Lost City",
+            "description": "A romance novelist and her cover model find themselves in a real-life adventure filled with comedy and action.",
+            "src": "images/the-lost-city-160028.jpg",
+            "Genre": "Comedy",
+            "url": "https://web2.topcinema.cam/%D9%81%D9%8A%D9%84%D9%85-the-lost-city-2022-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86/"
+        },
+        {
+            "id": 31,
+            "name": "The Lord of the Rings: The Fellowship of the Ring",
+            "description": "A young hobbit embarks on an epic journey to destroy a powerful ring and save Middle-earth from darkness.",
+            "src": "images/5m0zjctrxy9HeSAtnGWNLlsnr8z.jpg",
+            "Genre": "Fantasy",
+            "url": "https://w35.my-cima.net/watch.php?vid=915a63e6b"
+        },
+        {
+            "id": 32,
+            "name": "Harry Potter and the Sorcerer’s Stone",
+            "description": "A young wizard discovers his magical heritage and attends Hogwarts School of Witchcraft and Wizardry.",
+            "src": "images/R (7).jpg",
+            "Genre": "Fantasy"
+        },
+        {
+            "id": 33,
+            "name": "The Chronicles of Narnia: The Lion, the Witch, and the Wardrobe",
+            "description": "Four siblings step into a magical wardrobe and find themselves in the enchanted land of Narnia.",
+            "src": "images/OIP (7).jpg",
+            "Genre": "Fantasy",
+            "url": "https://v3.shahidwbas.tv/watch.php?vid=bcb8b2b15"
+        },
+        {
+            "id": 34,
+            "name": "Pan’s Labyrinth",
+            "description": "A dark and magical tale of a young girl who discovers a mysterious labyrinth in post-Civil War Spain.",
+            "src": "images/13059755264_3d55cc8b30_o.jpg",
+            "Genre": "Fantasy",
+            "url": "https://v3.shahidwbas.tv/watch.php?vid=73b7bb843"
+        },
+        {
+            "id": 35,
+            "name": "The Shape of Water",
+            "description": "A magical love story between a mute woman and a mysterious aquatic creature in a secret laboratory.",
+            "src": "images/xl_5580390_d89e3b68.jpg",
+            "Genre": "Fantasy",
+            "url": "https://web184.faselhd.cafe/movies/1%D9%81%D9%8A%D9%84%D9%85-shape-water-2017-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-vt"
+        },
+        {
+            "id": 36,
+            "name": "Stardust",
+            "description": "A young man ventures into a magical realm to retrieve a fallen star, which turns out to be a woman.",
+            "src": "images/R (8).jpg",
+            "Genre": "Fantasy",
+            "url": "https://egydeadw.sbs/%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9-%D9%81%D9%8A%D9%84%D9%85-stardust-2007-%D9%85%D8%AA%D8%B1%D8%AC%D9%85/"
+        },
+        {
+            "id": 37,
+            "name": "Maleficent",
+            "description": "The untold story of Disney’s most iconic villain, exploring her transformation and motivations.",
+            "src": "images/R (9).jpg",
+            "Genre": "Fantasy",
+            "url": "https://r48.cimalek.buzz/movies/maleficent/"
+        },
+        {
+            "id": 38,
+            "name": "Fantastic Beasts and Where to Find Them",
+            "description": "A magizoologist explores 1920s New York with his suitcase full of magical creatures, facing unexpected challenges.",
+            "src": "images/OIP (8).jpg",
+            "Genre": "Fantasy",
+            "url": "https://web184.faselhd.cafe/movies/1-%D9%81%D9%8A%D9%84%D9%85-fantastic-beasts-find-2016-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-k"
+        },
+        {
+            "id": 39,
+            "name": "The Golden Compass",
+            "description": "A young girl embarks on a journey to a parallel universe filled with daemons, witches, and armored bears.",
+            "src": "images/R (10).jpg",
+            "Genre": "Fantasy",
+            "url": "https://arabseed.show/%D9%81%D9%8A%D9%84%D9%85-the-golden-compass-2007-%D9%85%D8%AA%D8%B1%D8%AC%D9%85/"
+        },
+        {
+            "id": 40,
+            "name": "The Hobbit: An Unexpected Journey",
+            "description": "A young Bilbo Baggins is swept into an epic quest to help a group of dwarves reclaim their homeland from the fearsome dragon Smaug.",
+            "src": "images/OIP (9).jpg",
+            "Genre": "Fantasy",
+            "url": "https://arabseed.show/%D9%81%D9%8A%D9%84%D9%85-the-hobbit-an-unexpected-journey-2012-%D9%85%D8%AA%D8%B1%D8%AC%D9%85/"
+        }
+    ],
+    "games": [
+        {
+            "id": 1,
+            "name": "Chess",
+            "src": "images/chess.png",
+            "Genre": "thinking",
+            "url": "chess.html",
+            "description": "A classic strategy game where players compete to checkmate the opponent's king."
+        },
+        {
+            "id": 2,
+            "name": "Memory",
+            "src": "images/memory.png",
+            "Genre": "follow",
+            "url": "memorygame.html",
+            "description": "A fun game to test and improve your memory by matching pairs of cards."
+        },
+        {
+            "id": 3,
+            "name": "Rock Paper Scissors",
+            "src": "images/rockPaper.png",
+            "Genre": "luck",
+            "url": "rockPaperScissors.html",
+            "description": "A simple game of chance to decide the winner using rock, paper, or scissors."
+        },
+        {
+            "id": 4,
+            "name": "HangMan",
+            "src": "images/hangman.png",
+            "Genre": "thinking",
+            "url": "hangman.html",
+            "description": "A word-guessing game where players attempt to find the word before the hangman is complete."
+        },
+        {
+            "id": 5,
+            "name": "Connect 4",
+            "src": "images/connect.png",
+            "Genre": "thinking",
+            "url": "connect4.html",
+            "description": "A two-player game where you try to align four discs in a row before your opponent does."
+        },
+        {
+            "id": 6,
+            "name": "Ping Pong",
+            "src": "images/pingPong.png",
+            "Genre": "speeding",
+            "url": "pingPong.html",
+            "description": "A fast-paced game where players hit a ball back and forth to score points."
+        },
+        {
+            "id": 7,
+            "name": "Typing Speed",
+            "src": "images/typingSpeed.png",
+            "Genre": "speeding",
+            "url": "typing.html",
+            "description": "Test your typing speed and accuracy by typing as many words as possible in a limited time."
+        },
+        {
+            "id": 8,
+            "name": "X / O",
+            "src": "images/xo.png",
+            "Genre": "thinking",
+            "url": "xo.html",
+            "description": "A classic tic-tac-toe game where players try to align three X's or O's in a row."
+        }
+    ]
+}

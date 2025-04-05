@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Test Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/goBack.css">
+  <link rel="stylesheet" href="css/typing.css">
+</head>
+
+<body>
+  <!-- Start Go Back Button -->
+  <button class="goBack" onclick="window.location.href = 'games.html'">
+    <div class="sign"><i class="fa-solid fa-arrow-left-long"></i></div>
+    <div class="text">Go Back to Games</div>
+  </button>
+  <!-- End Go Back Button -->
+
+  <div class="instructions-overlay" id="instructions-overlay"></div>
+  <div class="instructions-popup" id="instructions-popup">
+    <h2>Welcome to the Typing Speed Test Game!</h2>
+    <p>
+      Test your typing speed and accuracy in this exciting game! Here's how it works:
+    </p>
+    <ul style="text-align: left; font-size: 16px; color: #1a92f4; margin-bottom: 20px; line-height: 1.6;">
+      <li>Select a difficulty level: <strong>Easy</strong>, <strong>Normal</strong>, or <strong>Hard</strong>.</li>
+      <li>Click the "Start Playing" button to begin the game.</li>
+      <li>Type the displayed word in the input box before the timer runs out.</li>
+      <li>If you type correctly, your score increases, and a new word appears.</li>
+      <li>If you fail to type the word in time, the game ends.</li>
+    </ul>
+    <p>Good luck, and have fun!</p>
+    <button onclick="closeInstructions()">Got It!</button>
+  </div>
+
+  <div class="game">
+    <div class="name">Typing Speed Test Game</div>
+    <div class="container">
+      <div class="message">
+        You Are Playing On
+        <select class="lvl">
+          <option value="" disabled selected>Select Level</option>
+          <option value="Easy">Easy</option>
+          <option value="Normal">Normal</option>
+          <option value="Hard">Hard</option>
+        </select> Level
+        & You Have <span class="seconds">0</span> Seconds To Type The Word
+      </div>
+      <div class="start">Start Playing</div>
+      <div class="the-word"></div>
+      <input type="text" class="input" placeholder="Type the word here..." />
+      <div class="upcoming-words">Words Will Show Here</div>
+      <div class="control">
+        <div class="time">Time Left: <span>0</span> Seconds</div>
+        <div class="score">
+          Score: <span class="got">0</span> From <span class="total"></span>
+        </div>
+      </div>
+      <div class="finish"></div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <div class="popup" id="popup">
+    <h2 id="popup-title"></h2>
+    <p id="popup-message"></p>
+    <button onclick="restartGame()">Play Again</button>
+  </div>
+  <script src="js/typing.js"></script>
+</body>
+
+</html>

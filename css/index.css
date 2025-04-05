@@ -1,0 +1,689 @@
+* {
+    scroll-behavior: smooth;
+}
+
+/* Start Landing Page */
+#landingPage {
+    background: linear-gradient(135deg, #5e3fce, rgba(58, 23, 214, 0.78), rgba(98, 157, 224, 0.76), rgba(58, 23, 214, 0.78));
+    background-size: 200% 200%;
+    animation: wave 6s infinite linear;
+    text-align: center;
+    color: var(--white-color);
+    min-height: 300px;
+    position: relative;
+    padding: 25px 0 0;
+}
+
+@keyframes wave {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 100% 50%;
+    }
+
+    50% {
+        background-position: 0% 50%;
+    }
+
+    75% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#landingPage h1 {
+    font-size: 3rem;
+    margin: 0 0 5px;
+    padding: 10px 0 5px;
+}
+
+#landingPage #quoteFun {
+    font-size: 1.5rem;
+    color: var(--dark-blue-color);
+}
+
+#landingPage #lineLand {
+    width: 30vw;
+    background-color: var(--third-blue-color);
+    color: var(--third-blue-color);
+    height: 2px;
+    margin: 0 auto;
+}
+
+@media (max-width: 525px) {
+    #landingPage #lineLand {
+        width: 40vw;
+    }
+}
+
+#landingPage .form-search {
+    display: block;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    margin: 40px auto 5px;
+}
+
+#landingPage .form-search input {
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 2px 0 2px 25px;
+    height: 65px;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid var(--white-color);
+}
+
+#landingPage .form-search input:hover {
+    border: 5px solid var(--third-blue-color);
+}
+
+#landingPage .form-search input:focus {
+    border: 5px solid var(--dark-blue-color);
+    outline: none;
+}
+
+#landingPage .form-search .sea {
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    cursor: pointer;
+}
+
+@media (max-width: 964px) {
+    #landingPage .form-search input {
+        margin-bottom: 30px;
+    }
+
+    #landingPage .form-search .sea {
+        bottom: 50px;
+    }
+}
+
+/* End Landing Page */
+
+/* Start First Content */
+#headerContent {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 0 0;
+    padding: 10px;
+}
+
+.items {
+    flex: 1 1 33.33%;
+    text-align: center;
+    padding: 25px 20px 10px;
+    box-sizing: border-box;
+    border-right: 3px solid var(--fourth-blue-color);
+}
+
+.items:last-child {
+    border-right: none;
+}
+
+.items img {
+    max-width: 100%;
+    width: 330px;
+    min-height: 185px;
+    display: block;
+    margin: 0 auto 10px;
+    max-height: 200px;
+    box-shadow: -12px 11px 8px rgba(0, 0, 0, .3);
+    border-radius: 30px;
+    transition: all .5s linear;
+}
+
+.items img:hover {
+    transform: scale(1.2);
+    box-shadow: -12px 11px 8px rgba(0, 0, 0, .3), 12px -11px 8px rgba(0, 0, 0, .3);
+    border-radius: 30%;
+}
+
+.buttonChange {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: var(--dark-blue-color);
+    text-transform: uppercase;
+    border: 2px solid var(--dark-blue-color);
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.buttonChange:hover {
+    color: white;
+}
+
+.buttonChange::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: var(--fourth-blue-color);
+    z-index: -1;
+    transition: all 1s;
+}
+
+.buttonChange:hover::before {
+    width: 160%;
+}
+
+.dark-icone {
+    color: white;
+}
+
+#forMovies,
+#forSports {
+    border-bottom: none;
+}
+
+@media (max-width: 480px) {
+    .items {
+        padding: 10px;
+    }
+
+    .items img {
+        max-width: 90%;
+    }
+}
+
+/* End First Content */
+
+
+/* Start Slider Movies */
+main #section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#wrapperMovies {
+    width: 85%;
+    max-width: 965px;
+    position: relative;
+    margin: 40px 0;
+}
+
+#carouselMovies {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+#carouselMovies::-webkit-scrollbar {
+    height: 0;
+}
+
+#prev1,
+#next1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+#prev1 {
+    top: 50%;
+    left: -10px;
+    transform: translate(50%, -50%);
+}
+
+#next1 {
+    top: 50%;
+    right: 5px;
+    transform: translate(-50%, -50%);
+}
+
+#contentMovies {
+    display: grid;
+    grid-gap: 16px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 180px;
+    height: 180px;
+    /* background-color: green; */
+}
+
+/* End Slider Movies */
+
+#section1,
+#section2,
+#section3 {
+    text-align: center;
+    color: white;
+    margin: 40px auto;
+    background: linear-gradient(135deg, #5e3fce, rgba(58, 23, 214, 0.78), rgba(98, 157, 224, 0.76), rgba(58, 23, 214, 0.78));
+    background-size: 150% 150%;
+    animation: wave 6s infinite linear;
+    padding: 20px 0;
+    width: 85%;
+    border-radius: 135px;
+}
+
+main h2 {
+    font-size: 30px;
+    padding: 5px 0;
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+#landingPage hr,
+#section1 hr,
+#section2 hr,
+#section3 hr {
+    color: var(--dark-blue-color);
+    background-color: var(--dark-blue-color);
+    border: none;
+    opacity: 1;
+}
+
+.underLine {
+    width: 30%;
+    height: 4px;
+    margin: 7px auto;
+}
+
+.nextUnderLine {
+    width: 50%;
+    height: 4px;
+    margin: 0 auto 10px;
+}
+
+@media (max-width: 480px) {
+
+    #section1,
+    #section2,
+    #section3 {
+        border-radius: 80px;
+    }
+}
+
+/* Start Slider Sports */
+.containerSports {
+    overflow: hidden;
+    margin: 3em 0 1.5em;
+}
+
+.card-carousel-sport {
+    --card-width: 80%;
+    --card-max-width: 280px;
+    --card-height: 300px;
+    --carousel-min-width: 600px;
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: var(--card-height);
+    min-width: var(--carousel-min-width);
+    transition: filter .3s ease;
+}
+
+@media screen and (max-width: 640px) {
+    .card-carousel-sport {
+        margin-left: calc((100vw - var(--carousel-min-width) - 15vw) / 2)
+    }
+}
+
+.card-carousel-sport.smooth-return {
+    transition: all .2s ease;
+}
+
+.card-carousel-sport .cardSport {
+    background-color: whitesmoke;
+    width: var(--card-width);
+    max-width: var(--card-max-width);
+    text-align: center;
+    padding: 1em;
+    min-width: 250px;
+    height: var(--card-height);
+    position: absolute;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, .5);
+    transition: inherit;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+    filter: brightness(.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardSport.highlight {
+    filter: brightness(1)
+}
+
+.image-container {
+    width: 8em;
+    height: 8em;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 2em;
+    border-radius: 100%;
+    padding: 1em;
+    box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 0.3);
+}
+
+.image-container::after {
+    content: "";
+    display: block;
+    width: 120%;
+    height: 120%;
+    border: solid 3px rgba(0, 0, 0, .2);
+    border-radius: 100%;
+    position: absolute;
+    top: calc(-8% - 3px);
+    left: calc(-8% - 3px);
+}
+
+.cardSport a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.cardSport a>* {
+    pointer-events: none;
+}
+
+.cardSport a div {
+    margin: 25px auto;
+}
+
+/* End Slider Sports */
+
+
+/* Start Slider Games */
+#board {
+    width: 100%;
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.cardGame {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-size: 100% 100%;
+    background-position: center;
+    transform: translate(-50%, -50%) scale(0.95);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardGame:hover {
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardGame:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.cardGame::after {
+    opacity: 0;
+}
+
+@media (min-width: 1400px) {
+
+    #wrapperMovies {
+        max-width: 1200px;
+    }
+
+    main h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 964px) and (min-width: 772px) {
+
+    #wrapperMovies {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 771px) and (min-width: 505px) {
+
+    #next1 {
+        right: -10px;
+    }
+
+    #wrapperMovies {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 964px) and (min-width: 505px) {
+
+    main h2 {
+        font-size: 25px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 504px) {
+
+    #wrapperMovies {
+        max-width: 360px;
+    }
+
+    main h2 {
+        font-size: 20px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 650px) {
+
+    #board {
+        height: 330px;
+    }
+
+    .cardGame {
+        width: 50vw;
+        height: 300px;
+    }
+
+    .nextUnderLine {
+        width: 40%;
+    }
+}
+
+/* End Slider Games */
+
+/* Start Circuler Data */
+#showingData {
+    padding: 30px 20px 50px;
+    text-align: center;
+}
+
+#showingData h2 {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white-color);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#containerPersons {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+}
+
+.circle-meter {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--text-color);
+    box-shadow: -8px 6px 10px rgba(0, 0, 0, .3);
+    overflow: hidden;
+    text-align: center;
+}
+
+.circle-meter::before {
+    content: attr(data-percentage) '%';
+    position: absolute;
+    top: 23px;
+    z-index: 1;
+}
+
+.circle-meter span {
+    position: relative;
+    top: 10px;
+}
+
+@media (min-width: 1024px) {
+    #containerPersons {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #containerPersons {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    #containerPersons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* End Circuler Data */
+
+
+/* Start About Us */
+#aboutUs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 20px 45px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .2);
+    scroll-margin-top: 75px;
+}
+
+#aboutUs h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#aboutUs>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#aboutUs>div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid var(--dark-blue-color);
+}
+
+#aboutUs>div h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333;
+    border: 3px solid var(--dark-blue-color);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+#aboutUs>div .descrip {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    #aboutUs>div {
+        width: calc(20% - 20px);
+    }
+}
+
+@media (max-width: 799px) {
+    #aboutUs>div {
+        width: 100%;
+    }
+}
+
+/* End About Us */

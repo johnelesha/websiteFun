@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/goBack.css">
+  <link rel="stylesheet" href="css/hangman.css">
+</head>
+
+<body>
+  <!-- Start Go Back Button -->
+  <button class="goBack" onclick="window.location.href = 'games.html'">
+    <div class="sign"><i class="fa-solid fa-arrow-left-long"></i></div>
+    <div class="text">Go Back to Games</div>
+  </button>
+  <!-- End Go Back Button -->
+
+  <div class="start-screen">
+    <h1>HangMan Game</h1>
+    <p>Select a category to start the game</p>
+    <select id="category-select">
+      <option value="" disabled selected>SELECT CATEGORY</option>
+      <option value="programming">Programming</option>
+      <option value="movies">Movies</option>
+      <option value="countries">Countries</option>
+      <option value="people">People</option>
+    </select>
+    <button id="start-game">Start Game</button>
+  </div>
+
+  <div class="container" style="display: none;">
+    <div class="game-info">
+      <div class="game-name">Hangman</div>
+      <div class="category">
+        Word From: <span></span>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="hangman-draw">
+        <div class="the-draw">
+          <div class="the-stand"></div>
+          <div class="the-hang"></div>
+          <div class="the-rope"></div>
+          <div class="the-man">
+            <div class="head"></div>
+            <div class="body"></div>
+            <div class="hands"></div>
+            <div class="legs"></div>
+          </div>
+        </div>
+      </div>
+      <div class="letters"></div>
+    </div>
+    <hr>
+    <div class="letters-guess"></div>
+  </div>
+
+  <audio id="success" src="videos&audios/success-1-6297.mp3" preload="auto"></audio>
+  <audio id="fail" src="videos&audios/fail-234710.mp3" preload="auto"></audio>
+  <div class="popup">
+    <div class="emoji"></div>
+    <p class="message"></p>
+    <p class="word"></p>
+  </div>
+
+  <script src="js/hangman.js"></script>
+</body>
+
+</html>

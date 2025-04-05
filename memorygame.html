@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/goBack.css">
+    <link rel="stylesheet" href="css/memorygame.css">
+</head>
+
+<body>
+    <!-- Start Go Back Button -->
+    <button class="goBack" onclick="window.location.href = 'games.html'">
+        <div class="sign"><i class="fa-solid fa-arrow-left-long"></i></div>
+        <div class="text">Go Back to Games</div>
+    </button>
+    <!-- End Go Back Button -->
+
+    <div class="strat-game">
+        <span>Start Game</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" data-socialmedia="Facebook">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-facebook fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Facebook">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-facebook fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Twitter">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-twitter fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Twitter">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-twitter fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Youtube">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-youtube fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Youtube">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-youtube fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Instagram">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-instagram fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Instagram">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-instagram fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Linkedin">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-linkedin fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Linkedin">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-linkedin fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Tiktok">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-tiktok fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Tiktok">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-tiktok fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Telegram">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-telegram fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Telegram">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-telegram fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Whatsapp">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-whatsapp fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Whatsapp">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-whatsapp fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Google">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-google fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Google">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-google fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Messenger">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-facebook-messenger fa-6x"></i>
+            </div>
+        </div>
+        <div class="game-block" data-socialmedia="Messenger">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-facebook-messenger fa-6x"></i>
+            </div>
+        </div>
+    </div>
+    <audio id="entering-audio" src="videos&audios/Entering Game.mp3"></audio>
+    <audio id="success" src="videos&audios/success.mp3"></audio>
+    <audio id="fail" src="videos&audios/fail.mp3"></audio>
+
+    <script src="js/memorygame.js"></script>
+</body>
+
+</html>

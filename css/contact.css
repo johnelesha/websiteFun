@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-container .title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.contact-container h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: var(--dark-blue-color);
+}
+
+.contact-container p {
+    color: var(--text-color);
+    margin: 10px 0 40px;
+    font-size: 1rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.info-box {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.info-box .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.info-box.fixed {
+    background: #002147;
+    color: #fff;
+}
+
+.info-box.fixed h3 {
+    color: #ddd;
+}
+
+.info-box.fixed p {
+    color: #fff;
+}
+
+.info-box.fixed .icon {
+    color: #ff6a00;
+}
+
+.info-box.hover-effect {
+    background: #fff;
+    color: #333;
+}
+
+.info-box.hover-effect h3 {
+    color: #333;
+}
+
+.info-box.hover-effect p {
+    color: #666;
+}
+
+.info-box.hover-effect .icon {
+    color: #ff6a00;
+}
+
+.info-box.hover-effect:hover {
+    background: #002147;
+    color: #fff;
+}
+
+.info-box.hover-effect:hover h3,
+.info-box.hover-effect:hover p {
+    color: #fff;
+}
+
+.info-box.hover-effect:hover .icon {
+    color: #ff6a00;
+}
+
+.map-and-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.map {
+    flex: 1;
+    min-width: 200px;
+    min-height: 300px;
+    margin-left: 5%;
+    margin-top: 7px;
+}
+
+.contact-form {
+    flex: 1;
+    margin-right: 10%;
+    min-width: 200px;
+    width: 40%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 90%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background: #ff6a00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background: #f9f9f9;
+    color: #ff6a00;
+    border: 1px solid #ff6a00;
+}

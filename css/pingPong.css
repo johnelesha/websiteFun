@@ -1,0 +1,26 @@
+body {
+    background-image: url(../images/Neon-Gaming.jpg);
+}
+
+.game-container {
+    border: 3px solid #59ce8f;
+    width: fit-content;
+    margin: auto;
+}
+
+#pause {
+    cursor: pointer;
+    border: 3px solid #59CE8F;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    transition: all 0.2s ease;
+}
+
+#pause:hover {
+    color: white;
+    background-color: #59CE8F;
+}
